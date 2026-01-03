@@ -1,0 +1,86 @@
+############################################
+# OS / Editor
+############################################
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+############################################
+# Vivado: project / runs / cache / reports
+############################################
+# Project and generated folders
+.vivado/
+*.jou
+*.log
+
+# Vivado project files (optional: keep or ignore)
+# If you want teammates to open the same project easily, DO NOT ignore *.xpr
+# *.xpr
+# *.str
+# *.data
+
+# Generated outputs
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.srcs/sources_1/ip/
+*.srcs/sources_1/bd/
+*.xpr.user/
+*.gen/
+*.tmp/
+*.backup/
+*.bk
+
+# Reports and logs
+*.rpt
+*.pb
+*.wdb
+*.wcfg
+*.str
+
+############################################
+# Xilinx IP / block design outputs (usually generated)
+############################################
+# Keep your BD Tcl or source files, ignore generated products
+*.xci
+*.dcp
+*.xdc~      # backup constraints
+*.tcl~      # backup scripts
+
+############################################
+# Simulation outputs (Vivado / XSim)
+############################################
+xsim.dir/
+*.wdb
+*.vcd
+*.fst
+*.ghw
+
+############################################
+# Bitstreams / synthesized outputs (generated)
+############################################
+*.bit
+*.bin
+*.ltx
+*.mmi
+*.elf
+*.map
+*.mcs
+*.prm
+*.xsa
+*.dcp
+
+############################################
+# Temporary / export
+############################################
+*.zip
+*.tar
+*.tar.gz
+export/
+dist/
