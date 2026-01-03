@@ -5,7 +5,7 @@ This repository contains our group project for the VHDL
 ## Project goals
 - Display a sine wave on a VGA (Video Graphics Array) monitor
 - Measure the speed of a toy train using sensor events (time measurement between events and conversion to speed, per project specification)
-- Optional UART (Universal Asynchronous Receiver-Transmitter) output for debugging/telemetry
+
 
 ## Team and responsibilities
 | Member | Main responsibility | Module / Block |
